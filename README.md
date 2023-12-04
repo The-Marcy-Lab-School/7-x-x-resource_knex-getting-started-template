@@ -18,6 +18,6 @@ This repo assumes you *already have* a main express project that you're working 
 That's it! You're done with this repo, now everything should be done through your main project!
 
 # Using Knex
-You don't *need* any of the scripts we added. The reason that they're there is for documentation. It's called "readable code" and it's a good practice to get into. No need to google syntax, it's right there in your package.json!
+Technically, you don't *need* any of the scripts we added. You can just use `npx knex <whatever command>` to get things done. However, I'm willing to bet, you'll forget the literal commands to run migrations and seeds and whatnot. The reason that they're in the `package.json` is for documentation. It's called "readable code" and it's a good practice to get into. No need to google syntax, it's right there in your package.json!
 
 Adding another model is easy, you just have to import the `knex.js` file in the `models` directory. You can see the example model in `db/models/example.js`.
